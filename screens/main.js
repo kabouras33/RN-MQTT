@@ -6,7 +6,7 @@ import { StyleSheet, Text, Switch, View, Alert, Image, ImageBackground } from 'r
 import RNSpeedometer from 'react-native-speedometer';
 
 client = new Paho.Client(
-  "camera-sys.ddns.net",
+  "...",
   Number(9001),
   `mqtt-async-test-${parseInt(Math.random() * 100)}`
 );
