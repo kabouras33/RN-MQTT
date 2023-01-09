@@ -7,7 +7,7 @@ function Camera (){
     return (
       <SafeAreaView style={{ flex: 1 }}>
         <WebView 
-          source={{ uri: 'http://camera-sys.ddns.net:8081/' }} 
+          source={{ uri: 'http://...:8081/' }} 
         />
       </SafeAreaView>
     );
